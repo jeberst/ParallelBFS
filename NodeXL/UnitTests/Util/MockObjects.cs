@@ -396,6 +396,8 @@ internal class MockVertex : IVertex
         m_oParentGraph = null;
     }
 
+    public Boolean Visited { get; set; }
+
     public String
     Name
     {
@@ -714,6 +716,8 @@ internal class MockMetadataProvider : IMetadataProvider, IIdentityProvider
         m_iNextID = 0;
     }
 
+    public Boolean Visited { get; set; }
+
     public MockMetadataProvider()
     {
         m_iID = m_iNextID;
@@ -880,6 +884,7 @@ internal class MockMetadataProvider : IMetadataProvider, IIdentityProvider
         m_oMetadataProvider.ClearMetadata();
     }
 
+   
 
     //*************************************************************************
     //  Protected fields

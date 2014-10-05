@@ -1207,10 +1207,6 @@ public class Vertex : GraphVertexEdgeBase, IVertex
     //*************************************************************************
     // Added for breadth first search
     //*************************************************************************
-<<<<<<< HEAD
-    public bool Visited { get; set; }
-=======
     public Boolean Visited { get; set; }
->>>>>>> origin/master
 }
 }

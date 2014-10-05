@@ -587,13 +587,10 @@ public interface IVertex : IIdentityProvider, IMetadataProvider
     (
         IEdge edge
     );
-<<<<<<< HEAD
-=======
     //*************************************************************************
     // Added for breadth first search
     //*************************************************************************
     Boolean Visited { get; set; }
->>>>>>> origin/master
 }
 
 }
