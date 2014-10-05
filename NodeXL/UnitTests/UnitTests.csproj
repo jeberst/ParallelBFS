@@ -56,6 +56,9 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Smrf.NodeXL.ExcelTemplate">
+      <HintPath>..\..\Smrf.NodeXL.ExcelTemplate.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -166,10 +169,6 @@
     <ProjectReference Include="..\WpfVisualization\WpfVisualization.csproj">
       <Project>{3228C440-7166-44E1-A1A2-036ECDD9371F}</Project>
       <Name>WpfVisualization</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\ExcelTemplate\ExcelTemplate.csproj">
-      <Project>{33AB75F0-43C2-4B1D-A0FC-2E682BC65386}</Project>
-      <Name>ExcelTemplate</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

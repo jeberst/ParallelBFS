@@ -1,0 +1,17 @@
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Algorithms\bin\Debug\SnapGraphMetricCalculator.exe
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Algorithms\bin\Debug\SnapGraphMetricCalculatorForCliquesOnly.exe
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Algorithms\bin\Debug\Smrf.NodeXL.Algorithms.xml
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Algorithms\bin\Debug\Smrf.NodeXL.Algorithms.dll
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Algorithms\bin\Debug\Smrf.NodeXL.Algorithms.pdb
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Algorithms\bin\Debug\Smrf.NodeXL.Core.dll
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Algorithms\bin\Debug\Smrf.NodeXL.Util.dll
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Algorithms\bin\Debug\Ionic.Zip.Reduced.dll
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Algorithms\bin\Debug\Smrf.NodeXL.Core.pdb
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Algorithms\bin\Debug\Smrf.NodeXL.Core.xml
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Algorithms\bin\Debug\Smrf.NodeXL.Util.pdb
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Algorithms\bin\Debug\Smrf.NodeXL.Util.xml
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Algorithms\bin\Debug\Ionic.Zip.Reduced.pdb
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Algorithms\bin\Debug\Ionic.Zip.Reduced.xml
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Algorithms\obj\Debug\Smrf.NodeXL.Algorithms.dll
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Algorithms\obj\Debug\Smrf.NodeXL.Algorithms.pdb

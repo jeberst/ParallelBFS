@@ -1,0 +1,662 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NodeXLGraphMLFileProcessor</name>
+    </assembly>
+    <members>
+        <member name="T:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor">
+             <summary>
+             Asynchronously processes GraphML files.
+             </summary>
+            
+             <remarks>
+             Processing continues in an endless loop.  It completes only when you cancel
+             it or an exception is thrown.
+            
+             <para>
+             Call <see cref="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.ProcessGraphMLFilesAsync(System.String)"/> to process GraphML files.
+             Call <see cref="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.CancelAsync"/> to stop the processing.  Handle the <see cref="E:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.GraphMLFileProcessingProgressChanged"/> and <see cref="E:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.GraphMLFileProcessingCompleted"/> events to monitor the processing
+             and cancellation.
+             </para>
+            
+             </remarks>
+        </member>
+        <member name="F:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.LookingForGraphMLFilesMessage">
+            Message saying that GraphML files are being looked for.
+        </member>
+        <member name="F:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.PausingMessagePrefix">
+            Prefix of the message saying that processing is pausing.
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor"/>
+            class.
+            </summary>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.ProcessGraphMLFilesAsync(System.String)">
+             <summary>
+             Asynchronously processes GraphML files.
+             </summary>
+            
+             <param name="graphMLFolderPath">
+             Full path to the folder to recursively search for GraphML files.
+             </param>
+            
+             <remarks>
+             Processing continues in an endless loop.  It completes only when you
+             cancel it or an exception is thrown.
+            
+             <para>
+             To cancel the processing, call <see cref="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.CancelAsync"/>.
+             </para>
+            
+             <para>
+             When processing completes, the <see cref="E:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.GraphMLFileProcessingCompleted"/> event fires.
+             </para>
+            
+             </remarks>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.CancelAsync">
+             <summary>
+             Cancels the processing started by <see cref="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.ProcessGraphMLFilesAsync(System.String)"/>.
+             </summary>
+            
+             <remarks>
+             When the processing cancels, the <see cref="E:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.GraphMLFileProcessingCompleted"/> event fires.  The <see cref="P:System.ComponentModel.AsyncCompletedEventArgs.Cancelled"/> property will be true.
+             </remarks>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.CreateBackgroundWorker">
+             <summary>
+             Creates a BackgroundWorker object and hooks up its events.
+             </summary>
+            
+             <returns>
+             A new BackgroundWorker object.
+             </returns>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.ProcessGraphMLFilesInternal(Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.ProcessGraphMLFilesAsyncArgs,System.ComponentModel.BackgroundWorker,System.ComponentModel.DoWorkEventArgs)">
+             <summary>
+             Processes GraphML files.
+             </summary>
+            
+             <param name="processGraphMLFilesAsyncArgs">
+             Contains the arguments needed to asynchronously process GraphML files.
+             </param>
+            
+             <param name="backgroundWorker">
+             A BackgroundWorker object.
+             </param>
+            
+             <param name="doWorkEventArgs">
+             A DoWorkEventArgs object.
+             </param>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.ProcessGraphMLFilesRecursive(System.String,System.ComponentModel.BackgroundWorker)">
+             <summary>
+             Processes GraphML files is a specified folder and subfolder.
+             </summary>
+            
+             <param name="graphMLFolderPath">
+             Full path to the folder to recursively search for GraphML files.
+             </param>
+            
+             <param name="backgroundWorker">
+             A BackgroundWorker object.
+             </param>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.TryGetFilePaths(System.String,System.ComponentModel.BackgroundWorker,System.String[]@,System.Collections.Generic.HashSet{System.String}@)">
+             <summary>
+             Attempts to get the paths to the GraphML and workbook files found in a
+             specified folder and its subfolders.
+             </summary>
+            
+             <param name="graphMLFolderPath">
+             Full path to the folder to recursively search for GraphML files.
+             </param>
+            
+             <param name="backgroundWorker">
+             A BackgroundWorker object.
+             </param>
+            
+             <param name="graphMLFilePaths">
+             Where the full paths to the GraphML files get stored if true is
+             returned.
+             </param>
+            
+             <param name="workbookFilePaths">
+             Where the full paths to the workbook files get stored, in lower case,
+             if true is returned.
+             </param>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.GraphMLFileIsNew(System.String,System.Collections.Generic.HashSet{System.String})">
+             <summary>
+             Determines whether a GraphML file is a new file that hasn't been't
+             processed yet.
+             </summary>
+            
+             <param name="graphMLFilePath">
+             Full path to the GraphML file to check.
+             </param>
+            
+             <param name="workbookFilePaths">
+             Full paths to all workbook files, in lower case.
+             </param>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.GetCorrespondingWorkbookFilePath(System.String)">
+             <summary>
+             Gets the path of a NodeXL workbook that corresponds to a GraphML file.
+             </summary>
+            
+             <param name="graphMLFilePath">
+             Full path to the GraphML file.
+             </param>
+            
+             <returns>
+             The path of the corresponding NodeXL workbook.  The workbook file may
+             or may not exist; this method just determines the path.
+             </returns>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.ProcessGraphMLFile(System.String,System.ComponentModel.BackgroundWorker)">
+             <summary>
+             Processes one new GraphML file.
+             </summary>
+            
+             <param name="graphMLFilePath">
+             Full path to the GraphML file to process.
+             </param>
+            
+             <param name="backgroundWorker">
+             A BackgroundWorker object.
+             </param>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.TryGetGraphMLDocument(System.String,System.ComponentModel.BackgroundWorker,System.Xml.XmlDocument@)">
+             <summary>
+             Attempts to open a GraphML file.
+             </summary>
+            
+             <param name="graphMLFilePath">
+             Full path to the GraphML file to file.
+             </param>
+            
+             <param name="backgroundWorker">
+             A BackgroundWorker object.
+             </param>
+            
+             <param name="graphMLDocument">
+             Where the GraphML document gets stored if true is returned.
+             </param>
+            
+             <returns>
+             true if successful, false if an exception was thrown.
+             </returns>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.TryGetNodeXLWorkbookSettingsFilePath(System.String,System.ComponentModel.BackgroundWorker,System.String@)">
+             <summary>
+             Attempts to get the path to the NodeXL workbook settings file
+             corresponding to a GraphML file.
+             </summary>
+            
+             <param name="graphMLFilePath">
+             Full path to the GraphML file to process.
+             </param>
+            
+             <param name="backgroundWorker">
+             A BackgroundWorker object.
+             </param>
+            
+             <param name="nodeXLWorkbookSettingsFilePath">
+             Where the full path to a NodeXL workbook settings file gets stored if
+             true is returned.  Can be null, which means that there is no such
+             settings file.
+             </param>
+            
+             <returns>
+             true if successful, false if an exception was thrown.
+             </returns>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.TrySaveGraphMLToNodeXLWorkbook(System.String,System.ComponentModel.BackgroundWorker,System.Xml.XmlDocument,System.String)">
+             <summary>
+             Attempts to save the GraphML to a new NodeXL workbook.
+             </summary>
+            
+             <param name="graphMLFilePath">
+             Full path to the GraphML file to process.
+             </param>
+            
+             <param name="backgroundWorker">
+             A BackgroundWorker object.
+             </param>
+            
+             <param name="graphMLDocument">
+             The GraphML document.
+             </param>
+            
+             <param name="nodeXLWorkbookSettingsFilePath">
+             The full path to a NodeXL workbook settings file, or null if there is
+             no such settings file.
+             </param>
+            
+             <returns>
+             true if successful, false if an exception was thrown.
+             </returns>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.TryAutomateNodeXLWorkbook(System.String,System.ComponentModel.BackgroundWorker)">
+             <summary>
+             Attempts to automat the new NodeXL workbook.
+             </summary>
+            
+             <param name="graphMLFilePath">
+             Full path to the GraphML file to process.
+             </param>
+            
+             <param name="backgroundWorker">
+             A BackgroundWorker object.
+             </param>
+            
+             <returns>
+             true if successful.
+             </returns>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.ReportProgress(System.ComponentModel.BackgroundWorker,System.String)">
+             <summary>
+             Reports progress via the <see cref="E:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.GraphMLFileProcessingProgressChanged"/> event.
+             </summary>
+            
+             <param name="backgroundWorker">
+             A BackgroundWorker object.
+             </param>
+            
+             <param name="message">
+             Progress message.
+             </param>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.ReportException(System.ComponentModel.BackgroundWorker,System.String,System.Exception)">
+             <summary>
+             Reports an exception that was caught.
+             </summary>
+            
+             <param name="backgroundWorker">
+             A BackgroundWorker object.
+             </param>
+            
+             <param name="description">
+             A description of the problem.
+             </param>
+            
+             <param name="exception">
+             The exception that was caught.
+             </param>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.BackgroundWorker_DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)">
+             <summary>
+             Handles the DoWork event on the BackgroundWorker object.
+             </summary>
+            
+             <param name="sender">
+             Source of the event.
+             </param>
+            
+             <param name="e">
+             Standard mouse event arguments.
+             </param>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.BackgroundWorker_ProgressChanged(System.Object,System.ComponentModel.ProgressChangedEventArgs)">
+             <summary>
+             Handles the ProgressChanged event on the BackgroundWorker object.
+             </summary>
+            
+             <param name="sender">
+             Source of the event.
+             </param>
+            
+             <param name="e">
+             Standard event arguments.
+             </param>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.BackgroundWorker_RunWorkerCompleted(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)">
+             <summary>
+             Handles the RunWorkerCompleted event on the BackgroundWorker object.
+             </summary>
+            
+             <param name="sender">
+             Source of the event.
+             </param>
+            
+             <param name="e">
+             Standard mouse event arguments.
+             </param>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.AssertValid">
+            <summary>
+            Asserts if the object is in an invalid state.  Debug-only.
+            </summary>
+        </member>
+        <member name="F:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.m_BackgroundWorker">
+            Used for asynchronous analysis.  null if an asynchronous analysis is
+            not in progress.
+        </member>
+        <member name="P:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.IsBusy">
+             <summary>
+             Gets a flag indicating whether an asynchronous operation is in
+             progress.
+             </summary>
+            
+             <value>
+             true if an asynchronous operation is in progress.
+             </value>
+        </member>
+        <member name="E:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.GraphMLFileProcessingProgressChanged">
+             <summary>
+             Occurs when progress is made during the processing started by <see cref="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.ProcessGraphMLFilesAsync(System.String)"/>.
+             </summary>
+            
+             <remarks>
+             The <see cref="P:System.ComponentModel.ProgressChangedEventArgs.UserState"/> argument is a
+             String describing the progress.  The String is suitable for display to
+             the user.
+             </remarks>
+        </member>
+        <member name="E:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.GraphMLFileProcessingCompleted">
+            <summary>
+            Occurs when the processing started by <see cref="M:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.ProcessGraphMLFilesAsync(System.String)"/> completes, is cancelled, or
+            encounters an error.
+            </summary>
+        </member>
+        <member name="T:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.ProcessGraphMLFilesAsyncArgs">
+            <summary>
+            Contains the arguments needed to asynchronously process GraphML files.
+            </summary>
+        </member>
+        <member name="F:Smrf.NodeXL.GraphMLFileProcessor.GraphMLFileProcessor.ProcessGraphMLFilesAsyncArgs.GraphMLFolderPath">
+            
+        </member>
+        <member name="T:Smrf.NodeXL.GraphMLFileProcessor.MainForm">
+            <summary>
+            The application's main form.
+            </summary>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.MainForm.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Smrf.NodeXL.GraphMLFileProcessor.MainForm"/> class.
+            </summary>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.MainForm.CreateGraphMLFileProcessor">
+             <summary>
+             Creates a GraphMLFileProcessor object and hooks up its events.
+             </summary>
+            
+             <returns>
+             A new GraphMLFileProcessor object.
+             </returns>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.MainForm.DoDataExchange(System.Boolean)">
+             <summary>
+             Transfers data between the dialog's fields and its controls.
+             </summary>
+            
+             <param name="bFromControls">
+             true to transfer data from the dialog's controls to its fields, false
+             for the other direction.
+             </param>
+            
+             <returns>
+             true if the transfer was successful.
+             </returns>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.MainForm.AppendStatus(System.String)">
+             <summary>
+             Appends a status line to the status TextBox and to the Trace system.
+             </summary>
+            
+             <param name="status">
+             The status to append.
+             </param>
+            
+             <remarks>
+             This method adds a CR-LF.
+             </remarks>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.MainForm.GetStatusTextBoxText">
+             <summary>
+             Gets the text from the status TextBox and removes the first lines if
+             the text is too long.
+             </summary>
+            
+             <returns>
+             Text text in the txbStatus TextBox, with the first lines removed if
+             necessary.
+             </returns>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.MainForm.ShowMessage(System.String)">
+             <summary>
+             Shows a message in a message box.
+             </summary>
+            
+             <param name="message">
+             Message to show.
+             </param>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.MainForm.GraphMLFileProcessor_GraphMLFileProcessingProgressChanged(System.Object,System.ComponentModel.ProgressChangedEventArgs)">
+             <summary>
+             Handles the GraphMLFileProcessingProgressChanged event on the
+             GraphMLFileProcessor object.
+             </summary>
+            
+             <param name="sender">
+             Standard event argument.
+             </param>
+            
+             <param name="e">
+             Standard event argument.
+             </param>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.MainForm.GraphMLFileProcessor_GraphMLFileProcessingCompleted(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)">
+             <summary>
+             Handles the GraphMLFileProcessingCompleted event on the
+             GraphMLFileProcessor object.
+             </summary>
+            
+             <param name="sender">
+             Standard event argument.
+             </param>
+            
+             <param name="e">
+             Standard event argument.
+             </param>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.MainForm.btnStartStop_Click(System.Object,System.EventArgs)">
+             <summary>
+             Handles the Click event on the btnStartStop button.
+             </summary>
+            
+             <param name="sender">
+             Standard event argument.
+             </param>
+            
+             <param name="e">
+             Standard event argument.
+             </param>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.MainForm.btnHelp_Click(System.Object,System.EventArgs)">
+             <summary>
+             Handles the Click event on the btnHelp button.
+             </summary>
+            
+             <param name="sender">
+             Standard event argument.
+             </param>
+            
+             <param name="e">
+             Standard event argument.
+             </param>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.MainForm.btnClose_Click(System.Object,System.EventArgs)">
+             <summary>
+             Handles the Click event on the btnClose button.
+             </summary>
+            
+             <param name="sender">
+             Standard event argument.
+             </param>
+            
+             <param name="e">
+             Standard event argument.
+             </param>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.MainForm.MainForm_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+             <summary>
+             Handles the FormClosing event on the MainForm.
+             </summary>
+            
+             <param name="sender">
+             Standard event argument.
+             </param>
+            
+             <param name="e">
+             Standard event argument.
+             </param>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.MainForm.AssertValid">
+            <summary>
+            Asserts if the object is in an invalid state.  Debug-only.
+            </summary>
+        </member>
+        <member name="F:Smrf.NodeXL.GraphMLFileProcessor.MainForm.MaximumStatusLineCount">
+            Maximum number of lines to allow in the status TextBox.
+        </member>
+        <member name="F:Smrf.NodeXL.GraphMLFileProcessor.MainForm.m_MainFormUserSettings">
+            User settings for this dialog.
+        </member>
+        <member name="F:Smrf.NodeXL.GraphMLFileProcessor.MainForm.m_GeneralUserSettings">
+            The user's general settings.
+        </member>
+        <member name="F:Smrf.NodeXL.GraphMLFileProcessor.MainForm.m_GraphMLFileProcessor">
+            Object that does all of the work.
+        </member>
+        <member name="F:Smrf.NodeXL.GraphMLFileProcessor.MainForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.MainForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.MainForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Smrf.NodeXL.GraphMLFileProcessor.MainFormUserSettings">
+             <summary>
+             Stores the user's settings for the <see cref="T:Smrf.NodeXL.GraphMLFileProcessor.MainForm"/>.
+             </summary>
+            
+             <remarks>
+             The user settings include the form size and location.
+             </remarks>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.MainFormUserSettings.#ctor(System.Windows.Forms.Form)">
+             <summary>
+             Initializes a new instance of the <see cref="T:Smrf.NodeXL.GraphMLFileProcessor.MainFormUserSettings"/>
+             class.
+             </summary>
+            
+             <param name="form">
+             The form to save settings for.
+             </param>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.MainFormUserSettings.AssertValid">
+            <summary>
+            Asserts if the object is in an invalid state.  Debug-only.
+            </summary>
+        </member>
+        <member name="T:Smrf.NodeXL.GraphMLFileProcessor.Program">
+            <summary>
+            The application's entry point.
+            </summary>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.Program.Main(System.String[])">
+             <summary>
+             The main entry point for the application.
+             </summary>
+            
+             <param name="args">
+             Command line arguments.
+             </param>
+        </member>
+        <member name="T:Smrf.NodeXL.GraphMLFileProcessor.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Smrf.NodeXL.GraphMLFileProcessor.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Smrf.NodeXL.GraphMLFileProcessor.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Smrf.NodeXL.GraphMLFileProcessor.Properties.Resources.HelpMessage">
+             <summary>
+               Looks up a localized string similar to This program continuously monitors a specified folder and its subfolders for new GraphML files.  When it finds a new GraphML file, it creates a new NodeXL workbook from it, saves the workbook to the same folder as the GraphML file, and automates the workbook.
+            
+            A GraphML file is considered &quot;new&quot; if there is no Excel file in the same folder that has the same name as the GraphML file.  If the GraphML file is named &quot;MyGraphMLFile.graphml&quot;, for example, and there is no corresponding file named &quot;MyGraphMLFile.x [rest of string was truncated]&quot;;.
+             </summary>
+        </member>
+        <member name="T:Smrf.NodeXL.GraphMLFileProcessor.GeneralUserSettings">
+            <summary>
+            Stores the user's general settings.
+            </summary>
+        </member>
+        <member name="F:Smrf.NodeXL.GraphMLFileProcessor.GeneralUserSettings.GraphMLFolderPathKey">
+            Name of the settings key for the GraphMLFolderPath property.
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GeneralUserSettings.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Smrf.NodeXL.GraphMLFileProcessor.GeneralUserSettings"/>
+            class.
+            </summary>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.GeneralUserSettings.AssertValid">
+            <summary>
+            Asserts if the object is in an invalid state.  Debug-only.
+            </summary>
+        </member>
+        <member name="P:Smrf.NodeXL.GraphMLFileProcessor.GeneralUserSettings.GraphMLFolderPath">
+             <summary>
+             Gets or sets the path to the GraphML file folder.
+             </summary>
+            
+             <value>
+             The path to the GraphML file folder.  The default value is
+             String.Empty.
+             </value>
+        </member>
+        <member name="T:Smrf.NodeXL.GraphMLFileProcessor.ProcessingUtil">
+            <summary>
+            Utility methods for processing GraphML files.
+            </summary>
+        </member>
+        <member name="M:Smrf.NodeXL.GraphMLFileProcessor.ProcessingUtil.AppendTimestamp(System.String)">
+             <summary>
+             Appends a timestamp to a message.
+             </summary>
+            
+             <param name="message">
+             Message to append a timestamp to.
+             </param>
+            
+             <returns>
+             The message with a timestamp appended to it.
+             </returns>
+        </member>
+    </members>
+</doc>
