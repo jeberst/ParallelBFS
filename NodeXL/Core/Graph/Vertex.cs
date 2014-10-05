@@ -1207,6 +1207,6 @@ public class Vertex : GraphVertexEdgeBase, IVertex
     //*************************************************************************
     // Added for breadth first search
     //*************************************************************************
-    bool Visited { get; set; }
+    public Boolean Visited { get; set; }
 }
 }

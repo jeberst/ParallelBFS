@@ -582,7 +582,7 @@ public interface IVertex : IIdentityProvider, IMetadataProvider
     /// </remarks>
     //*************************************************************************
 
-    Boolean
+    Boolean 
     IsIncomingEdge
     (
         IEdge edge
@@ -590,7 +590,7 @@ public interface IVertex : IIdentityProvider, IMetadataProvider
     //*************************************************************************
     // Added for breadth first search
     //*************************************************************************
-    bool Visited { get; set; }
+    Boolean Visited { get; set; }
 }
 
 }
