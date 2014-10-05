@@ -41,3 +41,9 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+*.cache
+NodeXL/ExcelTemplatePostDeploymentAction/obj/Debug/Interop.IWshRuntimeLibrary.dll
+NodeXL/GraphMLFileProcessorStarter/obj/Debug/Interop.IWshRuntimeLibrary.dll
+NodeXL/NetworkServerStarter/obj/Debug/Interop.IWshRuntimeLibrary.dll
+NodeXL/UpgradeLog.htm

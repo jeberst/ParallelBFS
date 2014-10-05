@@ -1203,5 +1203,10 @@ public class Vertex : GraphVertexEdgeBase, IVertex
     /// The vertex's location, or Point.Empty if Location hasn't been set yet.
 
     protected PointF m_oLocation;
+
+    //*************************************************************************
+    // Added for breadth first search
+    //*************************************************************************
+    bool Visited { get; set; }
 }
 }
