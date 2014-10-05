@@ -1,0 +1,7 @@
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\ExcelTemplatePostDeploymentAction\bin\Debug\PostDeploymentAction.dll
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\ExcelTemplatePostDeploymentAction\bin\Debug\PostDeploymentAction.pdb
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\ExcelTemplatePostDeploymentAction\obj\Debug\ExcelTemplatePostDeploymentAction.csprojResolveAssemblyReference.cache
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\ExcelTemplatePostDeploymentAction\obj\Debug\Interop.IWshRuntimeLibrary.dll
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\ExcelTemplatePostDeploymentAction\obj\Debug\ExcelTemplatePostDeploymentAction.csproj.ResolveComReference.cache
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\ExcelTemplatePostDeploymentAction\obj\Debug\PostDeploymentAction.dll
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\ExcelTemplatePostDeploymentAction\obj\Debug\PostDeploymentAction.pdb

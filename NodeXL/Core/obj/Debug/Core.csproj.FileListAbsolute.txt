@@ -1,0 +1,12 @@
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Core\bin\Debug\Smrf.NodeXL.Core.xml
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Core\bin\Debug\Smrf.NodeXL.Core.dll
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Core\bin\Debug\Smrf.NodeXL.Core.pdb
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Core\bin\Debug\Smrf.NodeXL.Util.dll
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Core\bin\Debug\Ionic.Zip.Reduced.dll
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Core\bin\Debug\Smrf.NodeXL.Util.pdb
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Core\bin\Debug\Smrf.NodeXL.Util.xml
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Core\bin\Debug\Ionic.Zip.Reduced.pdb
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Core\bin\Debug\Ionic.Zip.Reduced.xml
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Core\obj\Debug\Smrf.NodeXL.Core.dll
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Core\obj\Debug\Smrf.NodeXL.Core.pdb
