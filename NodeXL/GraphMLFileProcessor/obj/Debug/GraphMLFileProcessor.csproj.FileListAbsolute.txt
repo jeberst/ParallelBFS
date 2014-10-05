@@ -1,4 +1,0 @@
-K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\GraphMLFileProcessor\obj\Debug\GraphMLFileProcessor.csprojResolveAssemblyReference.cache
-K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\GraphMLFileProcessor\obj\Debug\Smrf.NodeXL.GraphMLFileProcessor.MainForm.resources
-K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\GraphMLFileProcessor\obj\Debug\Smrf.NodeXL.GraphMLFileProcessor.Properties.Resources.resources
-K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\GraphMLFileProcessor\obj\Debug\GraphMLFileProcessor.csproj.GenerateResource.Cache
