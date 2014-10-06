@@ -47,46 +47,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Dependencies\Microsoft.GLEE.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.NodeXL.ExcelTemplatePlugIns, Version=1.0.1.332, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Dependencies\Microsoft.NodeXL.ExcelTemplatePlugIns.dll</HintPath>
-    </Reference>
-    <Reference Include="Smrf.NodeXL.Adapters, Version=1.0.1.332, Culture=neutral, PublicKeyToken=7d233ba7875a1b76, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Dependencies\Smrf.NodeXL.Adapters.dll</HintPath>
-    </Reference>
-    <Reference Include="Smrf.NodeXL.Algorithms, Version=1.0.1.332, Culture=neutral, PublicKeyToken=7d233ba7875a1b76, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Dependencies\Smrf.NodeXL.Algorithms.dll</HintPath>
-    </Reference>
-    <Reference Include="Smrf.NodeXL.ApplicationUtil, Version=1.0.1.332, Culture=neutral, PublicKeyToken=7d233ba7875a1b76, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Dependencies\Smrf.NodeXL.ApplicationUtil.dll</HintPath>
-    </Reference>
-    <Reference Include="Smrf.NodeXL.Control.Wpf, Version=1.0.1.332, Culture=neutral, PublicKeyToken=7d233ba7875a1b76, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Dependencies\Smrf.NodeXL.Control.Wpf.dll</HintPath>
-    </Reference>
-    <Reference Include="Smrf.NodeXL.Core, Version=1.0.1.332, Culture=neutral, PublicKeyToken=7d233ba7875a1b76, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Dependencies\Smrf.NodeXL.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="Smrf.NodeXL.Layouts, Version=1.0.1.332, Culture=neutral, PublicKeyToken=7d233ba7875a1b76, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Dependencies\Smrf.NodeXL.Layouts.dll</HintPath>
-    </Reference>
-    <Reference Include="Smrf.NodeXL.Util, Version=1.0.1.332, Culture=neutral, PublicKeyToken=7d233ba7875a1b76, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Dependencies\Smrf.NodeXL.Util.dll</HintPath>
-    </Reference>
-    <Reference Include="Smrf.NodeXL.Visualization.Wpf, Version=1.0.1.332, Culture=neutral, PublicKeyToken=7d233ba7875a1b76, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Dependencies\Smrf.NodeXL.Visualization.Wpf.dll</HintPath>
-    </Reference>
-    <Reference Include="SocialNetImporter, Version=1.9.3.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>C:\Users\Josh\Dropbox\Graduate Classes\COP 6616\FinalProject\SocialNetImporter\SocialNetImporter\Dependencies\SocialNetImporter.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -121,27 +81,7 @@
     <Content Include="Dependencies\MIConvexHullPlugin.dll" />
     <Content Include="Dependencies\MIConvexHullPlugin.xml" />
     <Content Include="Dependencies\Microsoft.GLEE.dll" />
-    <Content Include="Dependencies\Microsoft.NodeXL.ExcelTemplatePlugIns.dll" />
-    <Content Include="Dependencies\Microsoft.NodeXL.ExcelTemplatePlugIns.xml" />
-    <Content Include="Dependencies\Smrf.NodeXL.Adapters.dll" />
-    <Content Include="Dependencies\Smrf.NodeXL.Adapters.xml" />
-    <Content Include="Dependencies\Smrf.NodeXL.Algorithms.dll" />
-    <Content Include="Dependencies\Smrf.NodeXL.Algorithms.xml" />
-    <Content Include="Dependencies\Smrf.NodeXL.ApplicationUtil.dll" />
-    <Content Include="Dependencies\Smrf.NodeXL.ApplicationUtil.xml" />
-    <Content Include="Dependencies\Smrf.NodeXL.Control.Wpf.dll" />
-    <Content Include="Dependencies\Smrf.NodeXL.Control.Wpf.xml" />
-    <Content Include="Dependencies\Smrf.NodeXL.Core.dll" />
-    <Content Include="Dependencies\Smrf.NodeXL.Core.xml" />
-    <Content Include="Dependencies\Smrf.NodeXL.Layouts.dll" />
-    <Content Include="Dependencies\Smrf.NodeXL.Layouts.xml" />
-    <Content Include="Dependencies\Smrf.NodeXL.Util.dll" />
-    <Content Include="Dependencies\Smrf.NodeXL.Util.xml" />
-    <Content Include="Dependencies\Smrf.NodeXL.Visualization.Wpf.dll" />
-    <Content Include="Dependencies\Smrf.NodeXL.Visualization.Wpf.xml" />
     <Content Include="Dependencies\SnapGraphMetricCalculator.exe" />
-    <Content Include="Dependencies\SocialNetImporter.dll" />
-    <Content Include="Dependencies\SocialNetImporter.pdb" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

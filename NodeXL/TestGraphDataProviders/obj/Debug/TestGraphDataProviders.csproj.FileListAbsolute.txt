@@ -42,3 +42,47 @@ K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\Node
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\MIConvexHullPlugin.xml
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\TestGraphDataProviders\obj\Debug\TestGraphDataProviders.exe
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\TestGraphDataProviders\obj\Debug\TestGraphDataProviders.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\SnapGraphMetricCalculator.exe
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\SnapGraphMetricCalculatorForCliquesOnly.exe
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\TestGraphDataProviders.exe.config
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\TestGraphDataProviders.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\TestGraphDataProviders.exe
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\TestGraphDataProviders.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Microsoft.NodeXL.ExcelTemplatePlugIns.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.GraphDataProviders.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.ApplicationUtil.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.Util.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.Control.Wpf.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.Layouts.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.Visualization.Wpf.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.Core.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.Algorithms.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\MIConvexHullPlugin.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Microsoft.GLEE.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Microsoft.NodeXL.ExcelTemplatePlugIns.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Microsoft.NodeXL.ExcelTemplatePlugIns.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.GraphDataProviders.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.GraphDataProviders.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.ApplicationUtil.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.ApplicationUtil.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.Util.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.Util.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.Control.Wpf.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.Control.Wpf.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.Layouts.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.Layouts.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Ionic.Zip.Reduced.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Ionic.Zip.Reduced.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.Visualization.Wpf.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.Visualization.Wpf.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.Core.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.Core.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.Algorithms.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\Smrf.NodeXL.Algorithms.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\bin\Debug\MIConvexHullPlugin.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\obj\Debug\TestGraphDataProviders.csprojResolveAssemblyReference.cache
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\obj\Debug\Smrf.NodeXL.TestGraphDataProviders.MainForm.resources
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\obj\Debug\TestGraphDataProviders.csproj.GenerateResource.Cache
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\obj\Debug\TestGraphDataProviders.exe
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\TestGraphDataProviders\obj\Debug\TestGraphDataProviders.pdb

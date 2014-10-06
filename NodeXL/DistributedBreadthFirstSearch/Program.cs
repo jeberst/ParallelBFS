@@ -1,11 +1,12 @@
-﻿using Smrf.NodeXL.Core;
+﻿using DistributedBreadthFirstSearch;
+using Smrf.NodeXL.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DistributedBreadthFirstSearch
+namespace Smrf.NodeXL.DistributedBreadthFirstSearch
 {
     class Program
     {
@@ -37,14 +38,13 @@ namespace DistributedBreadthFirstSearch
             }
         }
 
-         static IVertex BreadthFirstSearch(IGraph graph, string searchKey, string searchValue)
+         static Smrf.NodeXL.Core.IVertex BreadthFirstSearch(IGraph graph, string searchKey, string searchValue)
          {
              Queue<IVertex> queue = new Queue<IVertex>();
              IVertex root = graph.Vertices.FirstOrDefault();
-             Dictionary<IVertex, bool> visited = new Dictionary<IVertex, bool>();
-             
+
              queue.Enqueue(root);
-             visited[root] = true;
+             root.Visited = true;
 
              while (queue.Count > 0)
              {
@@ -59,10 +59,10 @@ namespace DistributedBreadthFirstSearch
                  foreach (IEdge edge in currentNode.IncidentEdges)
                  {
                      IVertex child = edge.Vertex2;
-                     if (!visited.ContainsKey(child))
+                     if (!child.Visited)
                      {
-                         visited[child] = true;
                          queue.Enqueue(child);
+                         child.Visited = true;
                      }
                  }
              }

@@ -15,3 +15,20 @@ K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\Node
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Algorithms\bin\Debug\Ionic.Zip.Reduced.xml
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Algorithms\obj\Debug\Smrf.NodeXL.Algorithms.dll
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Algorithms\obj\Debug\Smrf.NodeXL.Algorithms.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Algorithms\bin\Debug\SnapGraphMetricCalculator.exe
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Algorithms\bin\Debug\SnapGraphMetricCalculatorForCliquesOnly.exe
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Algorithms\bin\Debug\Smrf.NodeXL.Algorithms.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Algorithms\bin\Debug\Smrf.NodeXL.Algorithms.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Algorithms\bin\Debug\Smrf.NodeXL.Algorithms.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Algorithms\bin\Debug\Smrf.NodeXL.Core.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Algorithms\bin\Debug\Smrf.NodeXL.Util.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Algorithms\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Algorithms\bin\Debug\Smrf.NodeXL.Core.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Algorithms\bin\Debug\Smrf.NodeXL.Core.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Algorithms\bin\Debug\Smrf.NodeXL.Util.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Algorithms\bin\Debug\Smrf.NodeXL.Util.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Algorithms\bin\Debug\Ionic.Zip.Reduced.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Algorithms\bin\Debug\Ionic.Zip.Reduced.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Algorithms\obj\Debug\Smrf.NodeXL.Algorithms.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Algorithms\obj\Debug\Smrf.NodeXL.Algorithms.pdb

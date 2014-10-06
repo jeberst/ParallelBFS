@@ -6,3 +6,11 @@ K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\Node
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Util\bin\Debug\Ionic.Zip.Reduced.xml
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Util\obj\Debug\Smrf.NodeXL.Util.dll
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Util\obj\Debug\Smrf.NodeXL.Util.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Util\bin\Debug\Smrf.NodeXL.Util.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Util\bin\Debug\Smrf.NodeXL.Util.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Util\bin\Debug\Smrf.NodeXL.Util.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Util\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Util\bin\Debug\Ionic.Zip.Reduced.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Util\bin\Debug\Ionic.Zip.Reduced.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Util\obj\Debug\Smrf.NodeXL.Util.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\Util\obj\Debug\Smrf.NodeXL.Util.pdb

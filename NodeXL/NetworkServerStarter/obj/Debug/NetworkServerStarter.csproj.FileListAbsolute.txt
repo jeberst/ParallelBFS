@@ -12,3 +12,17 @@ K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\Node
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\NetworkServerStarter\obj\Debug\NetworkServerStarter.csproj.ResolveComReference.cache
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\NetworkServerStarter\obj\Debug\NodeXLNetworkServerStarter.exe
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\NetworkServerStarter\obj\Debug\NodeXLNetworkServerStarter.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\NetworkServerStarter\bin\Debug\NodeXLNetworkServerStarter.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\NetworkServerStarter\bin\Debug\NodeXLNetworkServerStarter.exe
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\NetworkServerStarter\bin\Debug\NodeXLNetworkServerStarter.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\NetworkServerStarter\bin\Debug\Smrf.NodeXL.Util.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\NetworkServerStarter\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\NetworkServerStarter\bin\Debug\Smrf.NodeXL.Util.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\NetworkServerStarter\bin\Debug\Smrf.NodeXL.Util.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\NetworkServerStarter\bin\Debug\Ionic.Zip.Reduced.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\NetworkServerStarter\bin\Debug\Ionic.Zip.Reduced.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\NetworkServerStarter\obj\Debug\NetworkServerStarter.csprojResolveAssemblyReference.cache
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\NetworkServerStarter\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\NetworkServerStarter\obj\Debug\NetworkServerStarter.csproj.ResolveComReference.cache
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\NetworkServerStarter\obj\Debug\NodeXLNetworkServerStarter.exe
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\NetworkServerStarter\obj\Debug\NodeXLNetworkServerStarter.pdb

@@ -3,3 +3,8 @@ K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\Node
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\ExcelTemplatePlugIns\bin\Debug\Microsoft.NodeXL.ExcelTemplatePlugIns.pdb
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\ExcelTemplatePlugIns\obj\Debug\Microsoft.NodeXL.ExcelTemplatePlugIns.dll
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\ExcelTemplatePlugIns\obj\Debug\Microsoft.NodeXL.ExcelTemplatePlugIns.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ExcelTemplatePlugIns\bin\Debug\Microsoft.NodeXL.ExcelTemplatePlugIns.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ExcelTemplatePlugIns\bin\Debug\Microsoft.NodeXL.ExcelTemplatePlugIns.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ExcelTemplatePlugIns\bin\Debug\Microsoft.NodeXL.ExcelTemplatePlugIns.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ExcelTemplatePlugIns\obj\Debug\Microsoft.NodeXL.ExcelTemplatePlugIns.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ExcelTemplatePlugIns\obj\Debug\Microsoft.NodeXL.ExcelTemplatePlugIns.pdb

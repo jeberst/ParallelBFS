@@ -587,8 +587,46 @@ public interface IVertex : IIdentityProvider, IMetadataProvider
     (
         IEdge edge
     );
+
     //*************************************************************************
-    // Added for breadth first search
+    //  Property: Visited
+    //
+    /// <summary>
+    /// Gets a collection of the vertex's successor vertices.
+    /// </summary>
+    ///
+    /// <value>
+    /// A collection of the vertex's zero or more successor vertices, as a
+    /// collection of <see cref="IVertex" /> objects.
+    /// </value>
+    ///
+    /// <remarks>
+    /// A successor vertex is a vertex at the other side of an outgoing edge.
+    /// (An outgoing edge is either a directed edge that has this vertex at its
+    /// back, or an undirected edge connected to this vertex.)
+    ///
+    /// <para>
+    /// A self-loop (an edge that connects a vertex to itself) is always
+    /// considered an outgoing edge.  Therefore, if there is an edge that
+    /// connects this vertex to itself, then this vertex is included in the
+    /// returned collection.
+    /// </para>
+    ///
+    /// <para>
+    /// The successor vertices in the returned collection are unique.  If two
+    /// or more edges connect this vertex with another vertex, the other vertex
+    /// is included once only.
+    /// </para>
+    ///
+    /// <para>
+    /// If there are no successor vertices, the returned collection is empty.
+    /// The returned value is never null.
+    /// </para>
+    ///
+    /// </remarks>
+    ///
+    /// <seealso cref="PredecessorVertices" />
+    /// <seealso cref="AdjacentVertices" />
     //*************************************************************************
     Boolean Visited { get; set; }
 }

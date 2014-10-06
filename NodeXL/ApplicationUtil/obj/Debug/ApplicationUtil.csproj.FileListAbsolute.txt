@@ -33,3 +33,38 @@ K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\Node
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.Visualization.Wpf.xml
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\ApplicationUtil\obj\Debug\Smrf.NodeXL.ApplicationUtil.dll
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\ApplicationUtil\obj\Debug\Smrf.NodeXL.ApplicationUtil.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.Layouts.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\SnapGraphMetricCalculator.exe
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\SnapGraphMetricCalculatorForCliquesOnly.exe
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.ApplicationUtil.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.ApplicationUtil.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.ApplicationUtil.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.Control.Wpf.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.Core.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.Util.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\MIConvexHullPlugin.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Microsoft.GLEE.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.Algorithms.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.Visualization.Wpf.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.Core.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.Core.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.Util.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.Util.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.Layouts.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.Layouts.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.Control.Wpf.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.Control.Wpf.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Ionic.Zip.Reduced.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Ionic.Zip.Reduced.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\MIConvexHullPlugin.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.Algorithms.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.Algorithms.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.Visualization.Wpf.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\bin\Debug\Smrf.NodeXL.Visualization.Wpf.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\obj\Debug\ApplicationUtil.csprojResolveAssemblyReference.cache
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\obj\Debug\Smrf.AppLib.ColorPicker.resources
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\obj\Debug\Smrf.NodeXL.ApplicationUtil.GraphZoomAndScaleControl.resources
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\obj\Debug\ApplicationUtil.csproj.GenerateResource.Cache
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\obj\Debug\Smrf.NodeXL.ApplicationUtil.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\ApplicationUtil\obj\Debug\Smrf.NodeXL.ApplicationUtil.pdb

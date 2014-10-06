@@ -12,3 +12,17 @@ K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\Node
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\GraphMLFileProcessorStarter\obj\Debug\GraphMLFileProcessorStarter.csproj.ResolveComReference.cache
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\GraphMLFileProcessorStarter\obj\Debug\GraphMLFileProcessorStarter.exe
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\GraphMLFileProcessorStarter\obj\Debug\GraphMLFileProcessorStarter.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\GraphMLFileProcessorStarter\bin\Debug\GraphMLFileProcessorStarter.XML
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\GraphMLFileProcessorStarter\bin\Debug\GraphMLFileProcessorStarter.exe
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\GraphMLFileProcessorStarter\bin\Debug\GraphMLFileProcessorStarter.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\GraphMLFileProcessorStarter\bin\Debug\Smrf.NodeXL.Util.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\GraphMLFileProcessorStarter\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\GraphMLFileProcessorStarter\bin\Debug\Smrf.NodeXL.Util.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\GraphMLFileProcessorStarter\bin\Debug\Smrf.NodeXL.Util.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\GraphMLFileProcessorStarter\bin\Debug\Ionic.Zip.Reduced.pdb
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\GraphMLFileProcessorStarter\bin\Debug\Ionic.Zip.Reduced.xml
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\GraphMLFileProcessorStarter\obj\Debug\GraphMLFileProcessorStarter.csprojResolveAssemblyReference.cache
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\GraphMLFileProcessorStarter\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\GraphMLFileProcessorStarter\obj\Debug\GraphMLFileProcessorStarter.csproj.ResolveComReference.cache
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\GraphMLFileProcessorStarter\obj\Debug\GraphMLFileProcessorStarter.exe
+C:\Users\James Ihrig\Documents\UCF\COP6616-MultiCoreProgramming\ParallelBFS\NodeXL\GraphMLFileProcessorStarter\obj\Debug\GraphMLFileProcessorStarter.pdb

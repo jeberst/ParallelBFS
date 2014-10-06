@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3F9874BC-45AC-41BF-BF41-AE93981F86E5}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ParallelBFS</RootNamespace>
+    <AssemblyName>ParallelBFS</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FacebookAPI">
+      <HintPath>..\GraphDataProviders\bin\Debug\FacebookAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.NodeXL.ExcelTemplatePlugIns">
+      <HintPath>..\ExcelTemplatePlugIns\bin\Debug\Microsoft.NodeXL.ExcelTemplatePlugIns.dll</HintPath>
+    </Reference>
+    <Reference Include="Smrf.NodeXL.Adapters">
+      <HintPath>..\Adapters\bin\Debug\Smrf.NodeXL.Adapters.dll</HintPath>
+    </Reference>
+    <Reference Include="Smrf.NodeXL.Algorithms">
+      <HintPath>..\Algorithms\bin\Debug\Smrf.NodeXL.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="Smrf.NodeXL.Core">
+      <HintPath>..\Core\bin\Debug\Smrf.NodeXL.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Smrf.NodeXL.ExcelTemplate">
+      <HintPath>..\..\Smrf.NodeXL.ExcelTemplate.dll</HintPath>
+    </Reference>
+    <Reference Include="Smrf.NodeXL.GraphDataProviders">
+      <HintPath>..\GraphDataProviders\bin\Debug\Smrf.NodeXL.GraphDataProviders.dll</HintPath>
+    </Reference>
+    <Reference Include="Smrf.NodeXL.Layouts">
+      <HintPath>..\Layouts\bin\Debug\Smrf.NodeXL.Layouts.dll</HintPath>
+    </Reference>
+    <Reference Include="Smrf.NodeXL.Util">
+      <HintPath>..\Core\bin\Debug\Smrf.NodeXL.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="SocialNetImporter">
+      <HintPath>..\GraphDataProviders\bin\Debug\SocialNetImporter.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GraphGenerator.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
