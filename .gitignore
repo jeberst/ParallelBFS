@@ -115,3 +115,11 @@ NodeXL/Util/obj/Debug/Util.csproj.FileListAbsolute.txt
 NodeXL/WpfControl/obj/Debug/WpfControl.csproj.FileListAbsolute.txt
 NodeXL/WpfVisualization/obj/Debug/WpfVisualization.csproj.FileListAbsolute.txt
 NodeXL/GraphMLFileProcessorStarter/bin/Debug/GraphMLFileProcessorStarter.pdb
+NodeXL/WpfControl/bin/Debug/Smrf.NodeXL.Util.dll
+NodeXL/WpfVisualization/obj/Debug/Smrf.NodeXL.Visualization.Wpf.pdb
+NodeXL/WpfVisualization/obj/Debug/Smrf.NodeXL.Visualization.Wpf.dll
+NodeXL/WpfVisualization/obj/Debug/Smrf.NodeXL.Visualization.Wpf.dll
+*.pdb
+*.exe
+*.pdb
+*.pdb
