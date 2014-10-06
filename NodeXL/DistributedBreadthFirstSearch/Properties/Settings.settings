@@ -1,0 +1,22 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DistributedBreadthFirstSearch.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ExcelGraphData" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Dsn=Excel Files;dbq=K:\USERS\JOSH\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\DISTRIBUTEDBREADTHFIRSTSEARCH\DistributedBreadthFirstSearch\JoshEberstFacebookGraph.xlsx;defaultdir=K:\USERS\JOSH\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\DISTRIBUTEDBREADTHFIRSTSEARCH\DistributedBreadthFirstSearch;driverid=1046;maxbuffersize=2048;pagetimeout=5&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.Odbc&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Dsn=Excel Files;dbq=K:\USERS\JOSH\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\DISTRIBUTEDBREADTHFIRSTSEARCH\DistributedBreadthFirstSearch\JoshEberstFacebookGraph.xlsx;defaultdir=K:\USERS\JOSH\DOCUMENTS\VISUAL STUDIO 2013\PROJECTS\DISTRIBUTEDBREADTHFIRSTSEARCH\DistributedBreadthFirstSearch;driverid=1046;maxbuffersize=2048;pagetimeout=5</Value>
+    </Setting>
+    <Setting Name="ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Dsn=ExcelSpreadSheets;dbq=C:\USERS\JOSH\DROPBOX\KimandJoshTaxinfo\MonthlyBudget.xlsx;defaultdir=C:\USERS\JOSH\DROPBOX\KimandJoshTaxinfo;driverid=1046;fil=excel 12.0;maxbuffersize=2048;pagetimeout=5&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.Odbc&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Dsn=ExcelSpreadSheets;dbq=C:\USERS\JOSH\DROPBOX\KimandJoshTaxinfo\MonthlyBudget.xlsx;defaultdir=C:\USERS\JOSH\DROPBOX\KimandJoshTaxinfo;driverid=1046;fil=excel 12.0;maxbuffersize=2048;pagetimeout=5</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

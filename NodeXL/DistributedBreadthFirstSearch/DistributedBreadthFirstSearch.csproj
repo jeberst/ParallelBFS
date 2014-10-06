@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{13F53510-9D49-4916-A084-DE0F3158DB87}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DistributedBreadthFirstSearch</RootNamespace>
+    <AssemblyName>DistributedBreadthFirstSearch</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FacebookAPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\FacebookAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="MIConvexHullPlugin, Version=1.0.10.1021, Culture=neutral, PublicKeyToken=7d233ba7875a1b76, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\MIConvexHullPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.GLEE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=7f84f738e1fc245c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\Microsoft.GLEE.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.NodeXL.ExcelTemplatePlugIns, Version=1.0.1.332, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\Microsoft.NodeXL.ExcelTemplatePlugIns.dll</HintPath>
+    </Reference>
+    <Reference Include="Smrf.NodeXL.Adapters, Version=1.0.1.332, Culture=neutral, PublicKeyToken=7d233ba7875a1b76, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\Smrf.NodeXL.Adapters.dll</HintPath>
+    </Reference>
+    <Reference Include="Smrf.NodeXL.Algorithms, Version=1.0.1.332, Culture=neutral, PublicKeyToken=7d233ba7875a1b76, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\Smrf.NodeXL.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="Smrf.NodeXL.ApplicationUtil, Version=1.0.1.332, Culture=neutral, PublicKeyToken=7d233ba7875a1b76, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\Smrf.NodeXL.ApplicationUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="Smrf.NodeXL.Control.Wpf, Version=1.0.1.332, Culture=neutral, PublicKeyToken=7d233ba7875a1b76, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\Smrf.NodeXL.Control.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Smrf.NodeXL.Core, Version=1.0.1.332, Culture=neutral, PublicKeyToken=7d233ba7875a1b76, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\Smrf.NodeXL.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Smrf.NodeXL.Layouts, Version=1.0.1.332, Culture=neutral, PublicKeyToken=7d233ba7875a1b76, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\Smrf.NodeXL.Layouts.dll</HintPath>
+    </Reference>
+    <Reference Include="Smrf.NodeXL.Util, Version=1.0.1.332, Culture=neutral, PublicKeyToken=7d233ba7875a1b76, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\Smrf.NodeXL.Util.dll</HintPath>
+    </Reference>
+    <Reference Include="Smrf.NodeXL.Visualization.Wpf, Version=1.0.1.332, Culture=neutral, PublicKeyToken=7d233ba7875a1b76, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Dependencies\Smrf.NodeXL.Visualization.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="SocialNetImporter, Version=1.9.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\Josh\Dropbox\Graduate Classes\COP 6616\FinalProject\SocialNetImporter\SocialNetImporter\Dependencies\SocialNetImporter.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dependencies\SampleGraphDataProvider.cs" />
+    <Compile Include="GraphGenerator.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Dependencies\NodeXLApi.chm" />
+    <None Include="JoshEberstFacebookGraph.xlsx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Dependencies\FacebookAPI.dll" />
+    <Content Include="Dependencies\FacebookAPI.pdb" />
+    <Content Include="Dependencies\MIConvexHullPlugin.dll" />
+    <Content Include="Dependencies\MIConvexHullPlugin.xml" />
+    <Content Include="Dependencies\Microsoft.GLEE.dll" />
+    <Content Include="Dependencies\Microsoft.NodeXL.ExcelTemplatePlugIns.dll" />
+    <Content Include="Dependencies\Microsoft.NodeXL.ExcelTemplatePlugIns.xml" />
+    <Content Include="Dependencies\Smrf.NodeXL.Adapters.dll" />
+    <Content Include="Dependencies\Smrf.NodeXL.Adapters.xml" />
+    <Content Include="Dependencies\Smrf.NodeXL.Algorithms.dll" />
+    <Content Include="Dependencies\Smrf.NodeXL.Algorithms.xml" />
+    <Content Include="Dependencies\Smrf.NodeXL.ApplicationUtil.dll" />
+    <Content Include="Dependencies\Smrf.NodeXL.ApplicationUtil.xml" />
+    <Content Include="Dependencies\Smrf.NodeXL.Control.Wpf.dll" />
+    <Content Include="Dependencies\Smrf.NodeXL.Control.Wpf.xml" />
+    <Content Include="Dependencies\Smrf.NodeXL.Core.dll" />
+    <Content Include="Dependencies\Smrf.NodeXL.Core.xml" />
+    <Content Include="Dependencies\Smrf.NodeXL.Layouts.dll" />
+    <Content Include="Dependencies\Smrf.NodeXL.Layouts.xml" />
+    <Content Include="Dependencies\Smrf.NodeXL.Util.dll" />
+    <Content Include="Dependencies\Smrf.NodeXL.Util.xml" />
+    <Content Include="Dependencies\Smrf.NodeXL.Visualization.Wpf.dll" />
+    <Content Include="Dependencies\Smrf.NodeXL.Visualization.Wpf.xml" />
+    <Content Include="Dependencies\SnapGraphMetricCalculator.exe" />
+    <Content Include="Dependencies\SocialNetImporter.dll" />
+    <Content Include="Dependencies\SocialNetImporter.pdb" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

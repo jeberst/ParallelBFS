@@ -46,7 +46,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencie
 		..\Smrf.NodeXL.ExcelTemplate.dll = ..\Smrf.NodeXL.ExcelTemplate.dll
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedBreadthFirstSearch", "..\..\..\DistributedBreadthFirstSearch\DistributedBreadthFirstSearch\DistributedBreadthFirstSearch.csproj", "{13F53510-9D49-4916-A084-DE0F3158DB87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedBreadthFirstSearch", "DistributedBreadthFirstSearch\DistributedBreadthFirstSearch.csproj", "{13F53510-9D49-4916-A084-DE0F3158DB87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
