@@ -1,6 +1,5 @@
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\ExcelTemplatePlugIns\bin\Debug\Microsoft.NodeXL.ExcelTemplatePlugIns.xml
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\ExcelTemplatePlugIns\bin\Debug\Microsoft.NodeXL.ExcelTemplatePlugIns.dll
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\ExcelTemplatePlugIns\bin\Debug\Microsoft.NodeXL.ExcelTemplatePlugIns.pdb
-K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\ExcelTemplatePlugIns\obj\Debug\ExcelTemplatePlugIns.csprojResolveAssemblyReference.cache
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\ExcelTemplatePlugIns\obj\Debug\Microsoft.NodeXL.ExcelTemplatePlugIns.dll
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\ExcelTemplatePlugIns\obj\Debug\Microsoft.NodeXL.ExcelTemplatePlugIns.pdb

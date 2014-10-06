@@ -4,6 +4,5 @@ K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\Node
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Util\bin\Debug\Ionic.Zip.Reduced.dll
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Util\bin\Debug\Ionic.Zip.Reduced.pdb
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Util\bin\Debug\Ionic.Zip.Reduced.xml
-K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Util\obj\Debug\Util.csprojResolveAssemblyReference.cache
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Util\obj\Debug\Smrf.NodeXL.Util.dll
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\Util\obj\Debug\Smrf.NodeXL.Util.pdb

@@ -40,3 +40,5 @@ K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\Node
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\GraphMLFileProcessor\bin\Debug\MIConvexHullPlugin.xml
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\GraphMLFileProcessor\obj\Debug\NodeXLGraphMLFileProcessor.exe
 K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\GraphMLFileProcessor\obj\Debug\NodeXLGraphMLFileProcessor.pdb
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\GraphMLFileProcessor\bin\Debug\SnapGraphMetricCalculator.exe
+K:\Users\Josh\Documents\Visual Studio 2013\Projects\ParallelBFS\ParallelBFS\NodeXL\GraphMLFileProcessor\bin\Debug\SnapGraphMetricCalculatorForCliquesOnly.exe
