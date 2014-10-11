@@ -81,6 +81,9 @@ public class Vertex : GraphVertexEdgeBase, IVertex
         m_oLocation = PointF.Empty;
 
         AssertValid();
+
+        Visited = false;
+        Level = UInt32.MaxValue;
     }
 
     //*************************************************************************
@@ -1207,6 +1210,7 @@ public class Vertex : GraphVertexEdgeBase, IVertex
     //*************************************************************************
     // Added for breadth first search
     //*************************************************************************
-    public Boolean Visited { get; set; }
+    public Boolean Visited { get; set; } = false;
+    public UInt32 Level { get; set; } = 0;
 }
 }

@@ -35,7 +35,43 @@ namespace ParallelBFS
                 string firstName = discoveredVertex.GetValue("First Name").ToString();
                 string lastName = discoveredVertex.GetValue("Last Name").ToString();
             }
+            BreadthFirstSearch(graph, "name", "James Ihrig");
         }
+
+
+        static void OneDimensionalPartitioning(IGraph g)
+        {
+            // L = level of vertices serched
+
+            //Lva = (L sub (v sub s))
+            //                     / 0, v = (v sub s), where (v sub s) is a source
+            //1: Initilize Lva(v) <
+            //                     \ inf, otherwise
+            // 2: for l = 0 to inf do
+            // 3:   F <- {v|Lva(v) = l}, the set of all local vertices with level l
+            // 4:   if F = null for all processors then
+            // 5:       Terminate main loop
+            // 6:   end if
+            // 7:   N <- {neighbors of vertices in f (not neccessarily local
+            // 8:   for all processors q do
+            // 9:       Nq <- { vertices in N owned by processor q}
+            //10:       Send Nq to processor q
+            //11:       Receive N`q from processor q
+            //12:   end for
+            //13:   N` <- Uq N'q ( Ther N`q may overlap)
+            //14:   for v elementOf N` and Lvs(v) = inf do
+            //15:       Lvs(v) <- l + 1
+            //16:   endfor
+            //17: end for
+
+            foreach ( Vertex v in g.Vertices )
+            {
+                v.Level = UInt32.MaxValue;
+                v.Visited = false; 
+                //v.Lev
+            }
+        }
+
 
         static Smrf.NodeXL.Core.IVertex BreadthFirstSearch(IGraph graph, string searchKey, string searchValue)
         {

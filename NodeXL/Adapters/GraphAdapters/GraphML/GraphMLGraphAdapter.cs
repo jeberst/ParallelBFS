@@ -204,7 +204,28 @@ public class GraphMLGraphAdapter : GraphAdapterBase, IGraphAdapter
         AssertValid();
 
         XmlDocument oXmlDocument = new XmlDocument();
-        oXmlDocument.Load(stream);
+
+        if (stream.Position > 0)
+        {
+            stream.Position = 0;
+        }
+        string fileName;
+        //Code from: http://msdn.microsoft.com/en-us/library/system.io.stream.read%28v=vs.110%29.aspx
+        byte[] buffer;
+        {
+            int length = (int)stream.Length;  // get file length
+            buffer = new byte[length];            // create buffer
+            int count;                            // actual number of bytes read
+            int sum = 0;                          // total number of bytes read
+
+            // read until Read method returns 0 (end of the stream has been reached)
+            while ((count = stream.Read(buffer, sum, length - sum)) > 0)
+                sum += count;  // sum is a buffer offset for next reading
+            fileName = System.Text.Encoding.UTF8.GetString(buffer);
+            fileName = fileName.Replace(System.Environment.NewLine, "");
+        }
+
+        oXmlDocument.Load(fileName);
 
         XmlNamespaceManager oXmlNamespaceManager = new XmlNamespaceManager(
             oXmlDocument.NameTable);

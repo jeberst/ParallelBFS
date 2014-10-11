@@ -123,3 +123,16 @@ NodeXL/WpfVisualization/obj/Debug/Smrf.NodeXL.Visualization.Wpf.dll
 *.exe
 *.pdb
 *.pdb
+*.dll
+*.pdb
+*.dll
+*.dll
+*.pdb
+NodeXL/Adapters/bin/Debug/Smrf.NodeXL.Adapters.dll
+NodeXL/Adapters/bin/Debug/Smrf.NodeXL.Adapters.dll
+NodeXL/Adapters/bin/Debug/Smrf.NodeXL.Adapters.pdb
+NodeXL/Adapters/bin/Debug/Smrf.NodeXL.Core.dll
+*.pdb
+NodeXL/Adapters/bin/Debug/Smrf.NodeXL.Util.dll
+NodeXL/Adapters/bin/Debug/Smrf.NodeXL.Util.pdb
+NodeXL/AdditionalFilesToPublish/NodeXLGraphMLFileProcessor.exe

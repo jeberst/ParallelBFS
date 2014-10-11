@@ -629,6 +629,7 @@ public interface IVertex : IIdentityProvider, IMetadataProvider
     /// <seealso cref="AdjacentVertices" />
     //*************************************************************************
     Boolean Visited { get; set; }
+    UInt32 Level { get; set; }
 }
 
 }
