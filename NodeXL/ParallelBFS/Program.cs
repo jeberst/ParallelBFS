@@ -9,6 +9,7 @@ namespace ParallelBFS
 {
     class Program
     {
+        static const int NUM_THREADS = 8;
         [STAThread]
         static void Main(string[] args)
         {
@@ -38,8 +39,34 @@ namespace ParallelBFS
             BreadthFirstSearch(graph, "name", "James Ihrig");
         }
 
-
+        
         static void OneDimensionalPartitioning(IGraph g)
+        {
+            //Divide graph into portions and call
+            //threads on BFSOnOneDimensionalPartitioning();
+            int graphSize = g.Vertices.Count();
+            int numSubgraphVertices = graphSize / NUM_THREADS;
+            for ( int i = 0; i < NUM_THREADS; i++ )
+            {
+                int remainder = graphSize % NUM_THREADS;
+                List<IVertex> threadVertices = new List<IVertex>();
+
+                int startIndex = i * numSubgraphVertices;
+
+                List<IVertex> graphAsList = g.Vertices.Cast<IVertex>().ToList();
+               
+                if (i == NUM_THREADS - 1)
+                {
+                    numSubgraphVertices += remainder;
+                }
+
+                List<IVertex> subGraph = graphAsList.GetRange(startIndex, numSubgraphVertices);
+                BFSOnOneDimensionalPartitioning(subGraph);
+            }
+        }
+        
+        //static void BFSOnOneDimensionalPartitioning(IGraph subGraph)
+        static void BFSOnOneDimensionalPartitioning(List<IVertex> subGraph)
         {
             // L = level of vertices serched
 
@@ -64,11 +91,37 @@ namespace ParallelBFS
             //16:   endfor
             //17: end for
 
-            foreach ( Vertex v in g.Vertices )
+            UInt32 currentLevel = 0;
+            IVertex root = g.Vertices.FirstOrDefault();
+            root.Visited = true;
+            root.Level = currentLevel;
+
+            for (currentLevel = 0; currentLevel < UInt32.MaxValue; currentLevel++ )
             {
-                v.Level = UInt32.MaxValue;
-                v.Visited = false; 
-                //v.Lev
+                foreach (IEdge e in root.OutgoingEdges)
+                {
+                    IVertex currentVertex = e.Vertex2;
+                    List<IVertex> F = new List<IVertex>();
+                    if ( !currentVertex.Visited )
+                    {
+                        F.Add(currentVertex);
+                    }
+                    if ( F.Count == 0 )
+                    {
+                        return;
+                    }
+                    List<IVertex> N = new List<IVertex>();
+                    //for ()
+                    //for ( uint i = 0; i < NUM_THREADS;  )
+                    {
+
+                    }
+                        currentLevel++;
+                    IVertex v = e.Vertex2;
+                    v.Level = currentLevel;
+                    v.Visited = true;
+                    //v.Lev
+                }
             }
         }
 
