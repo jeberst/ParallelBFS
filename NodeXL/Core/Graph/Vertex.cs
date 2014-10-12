@@ -1210,7 +1210,7 @@ public class Vertex : GraphVertexEdgeBase, IVertex
     //*************************************************************************
     // Added for breadth first search
     //*************************************************************************
-    public Boolean Visited { get; set; } = false;
-    public UInt32 Level { get; set; } = 0;
+    public Boolean Visited { get; set; }
+    public UInt32 Level { get; set; }
 }
 }

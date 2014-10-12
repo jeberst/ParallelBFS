@@ -9,7 +9,7 @@ namespace ParallelBFS
 {
     class Program
     {
-        static const int NUM_THREADS = 8;
+        const int NUM_THREADS = 8;
         [STAThread]
         static void Main(string[] args)
         {
@@ -92,7 +92,7 @@ namespace ParallelBFS
             //17: end for
 
             UInt32 currentLevel = 0;
-            IVertex root = g.Vertices.FirstOrDefault();
+            IVertex root = subGraph.FirstOrDefault();
             root.Visited = true;
             root.Level = currentLevel;
 
