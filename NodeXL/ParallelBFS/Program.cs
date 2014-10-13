@@ -36,7 +36,8 @@ namespace ParallelBFS
                 string firstName = discoveredVertex.GetValue("First Name").ToString();
                 string lastName = discoveredVertex.GetValue("Last Name").ToString();
             }
-            BreadthFirstSearch(graph, "name", "James Ihrig");
+            //BreadthFirstSearch(graph, "name", "James Ihrig");
+            OneDimensionalPartitioning(graph);
         }
 
         
@@ -46,6 +47,7 @@ namespace ParallelBFS
             //threads on BFSOnOneDimensionalPartitioning();
             int graphSize = g.Vertices.Count();
             int numSubgraphVertices = graphSize / NUM_THREADS;
+            g.Vertices.FirstOrDefault().Level = 0;
             for ( int i = 0; i < NUM_THREADS; i++ )
             {
                 int remainder = graphSize % NUM_THREADS;
@@ -61,12 +63,12 @@ namespace ParallelBFS
                 }
 
                 List<IVertex> subGraph = graphAsList.GetRange(startIndex, numSubgraphVertices);
-                BFSOnOneDimensionalPartitioning(subGraph);
+                BFSOnOneDimensionalPartitioning(subGraph, i);
             }
         }
         
         //static void BFSOnOneDimensionalPartitioning(IGraph subGraph)
-        static void BFSOnOneDimensionalPartitioning(List<IVertex> subGraph)
+        static void BFSOnOneDimensionalPartitioning(List<IVertex> subGraph, int myThreadID )
         {
             // L = level of vertices serched
 
@@ -91,36 +93,75 @@ namespace ParallelBFS
             //16:   endfor
             //17: end for
 
-            UInt32 currentLevel = 0;
-            IVertex root = subGraph.FirstOrDefault();
-            root.Visited = true;
-            root.Level = currentLevel;
 
-            for (currentLevel = 0; currentLevel < UInt32.MaxValue; currentLevel++ )
+            for (UInt32 currentLevel = 0; currentLevel < UInt32.MaxValue; currentLevel++ ) // Line 2
             {
-                foreach (IEdge e in root.OutgoingEdges)
+                List<IVertex> F = new List<IVertex>();
+                foreach (IVertex v in subGraph)
                 {
-                    IVertex currentVertex = e.Vertex2;
-                    List<IVertex> F = new List<IVertex>();
-                    if ( !currentVertex.Visited )
+                    if ( !v.Visited && v.Level == currentLevel ) //Line 3
                     {
-                        F.Add(currentVertex);
+                        F.Add(v);  // Line3
                     }
-                    if ( F.Count == 0 )
-                    {
-                        return;
-                    }
-                    List<IVertex> N = new List<IVertex>();
-                    //for ()
-                    //for ( uint i = 0; i < NUM_THREADS;  )
-                    {
 
+                    if ( F.Count == 0 ) // Line 4
+                    {
+                        //TODO: Check other threads if done
+                        //send(We are done?);
+                        return;  // Line 5
                     }
-                        currentLevel++;
-                    IVertex v = e.Vertex2;
-                    v.Level = currentLevel;
-                    v.Visited = true;
-                    //v.Lev
+                }
+
+                //Line 7
+                List<IVertex> N = new List<IVertex>();
+                foreach (IVertex v in F)
+                {
+                    foreach (IEdge e in v.OutgoingEdges)
+                    {
+                        N.Add(e.Vertex2);
+                    }
+                }
+
+                //Lines 8 - 12
+                List<IVertex> newNeighbors = new List<IVertex>();
+                foreach (IVertex v in N)
+                {
+                    for ( int i = 0; i < NUM_THREADS; i++ )
+                    {
+                        List< List<IVertex> >Nq = new List< List <IVertex>>();
+                        if ( v.threadID == i )
+                        {
+                            Nq[i].Add(v);
+                        }
+                    }
+                    for (int i = 0; i < NUM_THREADS; i++)
+                    {
+                        if (i != myThreadID)
+                        {
+                            //TODO: Implement send
+                            //send(thread[i], Nq[i]);
+                        }
+                    }
+                    for (int i = 0; i < NUM_THREADS; i++)
+                    {
+                        List<IVertex> recieved;
+                        if (i != myThreadID)
+                        {
+                            //TODO: Implement recieve
+                            //recieved = recieve(thread[i]);
+                            //newNeighbors.AddRange(recieved);
+                        }
+                    }
+                }
+
+                N.AddRange(newNeighbors); // Line 13
+                //TODO: Check for repaeats and remove as needed (May not be neccicary)
+                foreach ( IVertex v in N)
+                {
+                    if ( v.Level == UInt32.MaxValue )
+                    {
+                        v.Level = currentLevel + 1;
+                    }
                 }
             }
         }

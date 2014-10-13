@@ -84,6 +84,7 @@ public class Vertex : GraphVertexEdgeBase, IVertex
 
         Visited = false;
         Level = UInt32.MaxValue;
+        threadID = int.MaxValue;
     }
 
     //*************************************************************************
@@ -1212,5 +1213,6 @@ public class Vertex : GraphVertexEdgeBase, IVertex
     //*************************************************************************
     public Boolean Visited { get; set; }
     public UInt32 Level { get; set; }
+    public int threadID { get; set; }
 }
 }

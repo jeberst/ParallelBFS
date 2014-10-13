@@ -630,6 +630,7 @@ public interface IVertex : IIdentityProvider, IMetadataProvider
     //*************************************************************************
     Boolean Visited { get; set; }
     UInt32 Level { get; set; }
+    int threadID { get; set; }
 }
 
 }

@@ -136,3 +136,10 @@ NodeXL/Adapters/bin/Debug/Smrf.NodeXL.Core.dll
 NodeXL/Adapters/bin/Debug/Smrf.NodeXL.Util.dll
 NodeXL/Adapters/bin/Debug/Smrf.NodeXL.Util.pdb
 NodeXL/AdditionalFilesToPublish/NodeXLGraphMLFileProcessor.exe
+NodeXL/Adapters/bin/Debug/Smrf.NodeXL.Adapters.dll
+NodeXL/Adapters/bin/Debug/Smrf.NodeXL.Adapters.dll
+NodeXL/Adapters/bin/Debug/Smrf.NodeXL.Adapters.dll
+NodeXL/Adapters/bin/Debug/Smrf.NodeXL.Adapters.pdb
+NodeXL/Algorithms/obj/Debug/Algorithms.csproj.FileListAbsolute.txt
+NodeXL/ApplicationUtil/bin/Debug/Smrf.NodeXL.ApplicationUtil.dll
+NodeXL/NetworkServer/bin/Debug/Smrf.NodeXL.GraphDataProviders.pdb
