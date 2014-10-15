@@ -397,6 +397,8 @@ internal class MockVertex : IVertex
     }
 
     public Boolean Visited { get; set; }
+    public UInt32 Level { get; set; }
+    public int threadID { get; set; }
 
     public String
     Name
