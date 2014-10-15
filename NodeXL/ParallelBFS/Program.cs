@@ -218,6 +218,7 @@ namespace ParallelBFS
 
     class OneDimensionalPartition
     {
+        const int NUM_THREADS = 8;
         int myThreadID = int.MaxValue;
         List<IVertex> subGraph = null;
         public OneDimensionalPartition(List<IVertex> subGraph, int threadID)
