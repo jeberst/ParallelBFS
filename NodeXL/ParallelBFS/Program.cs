@@ -31,13 +31,17 @@ namespace ParallelBFS
 
             var ShowTheExamples = vertexExampleValues;
 
-            IVertex discoveredVertex = BreadthFirstSearch(graph, "Last Name", "Pecoraro");
-            if (discoveredVertex != null)
-            {
-                string firstName = discoveredVertex.GetValue("First Name").ToString();
-                string lastName = discoveredVertex.GetValue("Last Name").ToString();
-            }
-            //BreadthFirstSearch(graph, "name", "James Ihrig");
+            //IVertex discoveredVertex = BreadthFirstSearch(graph, "Last Name", "Pecoraro");
+            //if (discoveredVertex != null)
+            //{
+            //    string firstName = discoveredVertex.GetValue("First Name").ToString();
+            //    string lastName = discoveredVertex.GetValue("Last Name").ToString();
+            //}
+            
+            // Testing BFS implementation that iterates through all nodes
+            int numNodesVisited = BreadthFirstSearch(graph);
+            Console.WriteLine("Visited: " + numNodesVisited + " nodes.");
+            
             OneDimensionalPartitioning(graph);
         }
 
@@ -212,6 +216,35 @@ namespace ParallelBFS
             }
 
             return null;
+        }
+
+        // Returns the number of node that were visited
+        static int BreadthFirstSearch(IGraph graph)
+        {
+            Queue<IVertex> queue = new Queue<IVertex>();
+            IVertex root = graph.Vertices.FirstOrDefault();
+            int numVisitedNodes = 0;
+
+            queue.Enqueue(root);
+            root.Visited = true;
+            numVisitedNodes++;
+
+            while (queue.Count > 0)
+            {
+                IVertex currentNode = queue.Dequeue();
+                foreach (IEdge edge in currentNode.IncidentEdges)
+                {
+                    IVertex child = edge.Vertex2;
+                    if (!child.Visited)
+                    {
+                        queue.Enqueue(child);
+                        child.Visited = true;
+                        numVisitedNodes++;
+                    }
+                }
+            }
+
+            return numVisitedNodes;
         }
     }
 
